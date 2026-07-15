@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-sanctions-screening",
+  "version": "0.1.0",
+  "description": "Screen names against the US Consolidated Screening List: OFAC SDN, BIS Entity List + 10 more, keyless",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "sanctions-screening"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-sanctions-screening"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
