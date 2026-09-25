@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/sanctions-screening",
   "title": "Sanctions Screening",
-  "description": "Screen names against the US Consolidated Screening List: OFAC SDN, BIS Entity List + 10 more, keyless",
-  "version": "0.1.0",
+  "description": "Sanctions Screening MCP — screen people, companies, vessels, and aircraft",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/sanctions-screening",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-sanctions-screening",
