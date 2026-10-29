@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-sanctions-screening",
-  "version": "0.1.2",
-  "description": "Sanctions Screening MCP — screen people, companies, vessels, and aircraft",
+  "version": "0.2.0",
+  "description": "Sanctions Screening MCP — screen people, companies, vessels, and aircraft against the US Consolidated Screening List (CSL): the 12 US government restricted-party lists merged — OFAC SDN, Sectoral Sanctions (SSI), Chinese Military-Industrial Complex (CMIC), BIS Entity List / Denied Persons /…",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-sanctions-screening": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "sanctions-screening"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-sanctions-screening.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/sanctions-screening",
   "pipeworx": {
-    "sourceHash": "v1-b746e9ccd88d7f1b9f62e08cb151809575f9e0f0d48a494b50d4d22b459d1758",
-    "sourceCommit": "6fe8fb3e01138dfc4ebe7d5c246503aab9278d06"
+    "mode": "gateway",
+    "slug": "sanctions-screening",
+    "gatewaySlug": "sanctions-screening",
+    "sourceHash": "v1-407b3910c0955f26c0d5063beeec923e4f9cdf1a8f16ac17869b2b27b308dfc4",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
