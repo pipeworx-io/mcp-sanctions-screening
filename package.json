@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-sanctions-screening",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Sanctions Screening MCP — screen people, companies, vessels, and aircraft against the US Consolidated Screening List (CSL): the 12 US government restricted-party lists merged — OFAC SDN, Sectoral Sanctions (SSI), Chinese Military-Industrial Complex (CMIC), BIS Entity List / Denied Persons /…",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "sanctions-screening",
     "gatewaySlug": "sanctions-screening",
-    "sourceHash": "v1-407b3910c0955f26c0d5063beeec923e4f9cdf1a8f16ac17869b2b27b308dfc4",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-484b6700d05454d1d9ef4e7071208500a87abdda041d7f96620906c802e7bdcd",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }

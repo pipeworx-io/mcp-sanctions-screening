@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/sanctions-screening",
   "title": "Sanctions Screening",
   "description": "Sanctions Screening MCP — screen people, companies, vessels, and aircraft against the US…",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/sanctions-screening",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-sanctions-screening",
